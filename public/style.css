@@ -1,0 +1,119 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* CSS for FAQ */
+
+.faq_wrapper {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #643843;
+    margin: 20px;
+}
+
+.faq_container {
+    width: 600px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.faq_ques {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    min-height: 40px; 
+}
+
+.faq {
+    width: 500px;
+    height: auto; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    background-color: #B47B84;
+    margin: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    flex-direction: column;
+}
+
+.faq_ans {
+    height: auto;
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    justify-self: center;
+    margin: 7px;
+    font-size: 18px;
+}
+
+.faq_logo {
+    font-size: 30px;
+}
+
+.faq_button {
+    width: 100px;
+    height: 40px;
+    background-color: #B47B84;
+    font-size: 1.3rem;
+    border: none;
+    margin: 10px;
+    border-radius: 7px;
+}
+
+/* CSS for RCB */
+
+.rcg_button{
+    width: 100px;
+    height: 40px;
+    background-color:wheat;
+    font-size: 1.3rem;
+    border: none;
+    margin: 20px;
+    border-radius: 7px;
+}
+
+.rcg_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rcg_buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rcg_margin{
+    margin: 20px;
+}
+
+/* CSS for Star Review */
+.active{
+    color : #fff700
+}
+
+.inactive{
+    color: black;
+}
+
+.review{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}

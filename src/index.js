@@ -1,17 +1,17 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
+import Faq from "./components/faq/app";
+import RandomColorGenerator from "./components/random_color_generator/app";
+import Review from "./components/star_review/app";
+import Slider from "./components/image_slider/app";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+ReactDOM.render(
+  <div>
+    <Faq />
+    <RandomColorGenerator />
+    <Review noofStars={5}/>
+    <Slider url = {"https://picsum.photos/v2/list"} limit={'5'} page={1} />
+  </div>,
+  document.getElementById("root")
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
